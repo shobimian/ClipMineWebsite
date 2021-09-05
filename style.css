@@ -1,0 +1,265 @@
+body{
+	margin: 0 auto;
+	padding: 0 auto;
+	box-sizing: border-box;
+}
+/*.............................navbar-style........................*/
+.header-section{
+	background-image: url('images/pics/top-section_2180x750.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+	height: 650px;
+}
+.navbar{
+	display: grid;
+	grid-template-columns: 1fr 3fr 3fr;
+	background: whitesmoke;
+}
+.logo img{
+	margin-top: 10px;
+}
+.nav-1{
+	
+}
+.nav-2{
+	text-align: right;
+}
+.nav-1 li, .nav-2 li{
+	display: inline-block;
+	list-style: none;
+	padding: 10px 10px;
+}
+.nav-1 li a, .nav-2 li a{
+	text-decoration: none;
+	color: black;
+}
+.center-div{
+	margin-top: 150px;
+}
+.center-div h1{
+	color: #fff;
+	font-size: 2.5rem;
+}
+.center-div p{
+	color: #fff;
+	font-size: 1.5rem;
+}
+.center-div a{
+	text-decoration: none;
+	padding: 10px 25px;
+	border-radius: 5px;
+	outline: none;
+	color: #fff;
+	background-color: blue;
+}
+.center-div a:hover{
+	cursor: pointer;
+	color: whitesmoke;
+	background-color: darkblue;
+}
+
+/*...............................posts-section-style.............................*/
+.posts-section{
+	margin-top: 50px;
+}
+.row-div{
+	display: flex;
+	justify-content: space-around;
+    flex-wrap: wrap;
+	margin-top: 50px;
+}
+.cart{
+	margin: 20px;
+	width: 380px;
+}
+.cart p{
+	margin-top: 0px;
+}
+.info-div p{
+	margin-top: 0px;
+}
+.sharing-div p{
+	margin-top: 10px;
+}
+.post-thumb{
+	width: 380px;
+	height: 280px;
+}
+.info-div{
+	display: flex;
+	margin-top:-10px;
+
+}
+.sharing-div{
+	display: flex;
+	align-items: center;
+	text-align: center;
+	background-color: whitesmoke;
+	border-radius: 10px;
+	margin-top: -15px;
+}
+.icon{
+	width: 20px;
+	height: 20px;
+	padding-right: 10px;
+}
+
+/*.......................features-section-style.....................*/
+
+.features-para{
+	text-align: center;
+	margin-top: 50px;
+}
+.features-para p{
+	font-size: 1.2rem;
+	text-align: center;
+}
+.features-heading h1{
+	margin-top: 100px;
+}
+.feature-card{
+	margin: 20px;
+	width: 380px;
+}
+.features-row{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	flex-direction: row;
+	margin-top: 100px;
+}
+.features-row p{
+	width: 250px;
+}
+.feature-text{
+	font-size: 1.2rem;
+	text-align: center;
+}
+
+/*............................Benifits-section-style........................*/
+.benifits-section{
+	margin-top: 100px;
+}
+.benifit-items{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+}
+.benefits-text-box{
+	width: 600px;
+}
+.benifit-items img{
+	margin: 20px;
+}
+.benifit-items{
+	font-size: 1.2rem;
+	text-align: center;
+}
+/*...........................Collection-section-style....................*/
+.collection-section{
+	margin-top: 100px;
+}
+.collection-container{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-top: 50px;
+}
+.collection-card{
+	margin: 40px;
+}
+.collection-image{
+	width: 325px;
+}
+.collection-card span{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-weight: bolder;
+	margin-top: -75px;
+}
+.collection-para{
+	margin-top: 100px;
+	font-size: 1.2rem;
+	text-align: center;
+}
+/*......................companies-section...........................*/
+.company-section{
+	margin-top: 50px;
+	background-color: whitesmoke;
+}
+.companies-text{
+	text-align: center;
+	padding-top: 20px;
+}
+.companies-container{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	flex-direction: row;
+	margin-top: 50px;
+}
+.companies-card{
+	margin: 30px;
+}
+.companies-image{
+	width: 350px;
+}
+/*.............Input-section-style............*/
+.input-section{
+	margin-top: 50px;
+}
+.input-section form{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+}
+.input-section form input{
+	outline: none;
+	width: 400px;
+	padding: 10px 0px;
+}
+.btn-sm{
+	padding: 10px 10px;
+	background-color: blue;
+	outline: none;
+	color: white;
+	border-radius: 7px;
+	margin:5px;
+}
+.btn-sm:hover{
+	cursor: pointer;
+	outline: none;
+	background-color: darkblue;
+}
+/*..................plateform-section-style.......................*/
+.platforms{
+	margin-top: 50px;
+}
+.platforms-container{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	flex-direction: row;
+	margin-top: 50px;
+}
+/*..........................footer-section-style.................*/
+
+.footer-section{
+	width: 100%;
+	background-color: black;
+	color: white;
+}
+.footer-upper, .footer-lower{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.footer-upper li, .footer-lower li{
+	display: inline-block;
+}

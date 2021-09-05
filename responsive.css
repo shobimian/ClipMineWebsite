@@ -1,0 +1,76 @@
+/*...................toggle-responsive-style.....................*/
+#toggle{
+	display: none;
+}
+.toogle-logo{
+	width: 50%;
+
+}
+.togglearea{
+	width: 100%;
+/*	height: 50px;*/
+	background-color: whitesmoke;
+	display: flex;
+	align-items: center;
+}
+.toggle-div{
+	display: flex;
+	justify-content: flex-end;
+	width: 50%;
+}
+.togglearea label{
+	width: 45px;
+	height: 40px;
+	display: flex;
+	/*background-color: red;*/
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.togglearea span{
+	background-color: black;
+	height: 4px;
+	width: 70%;
+	margin: 2px 0px;
+}
+.togglearea label:hover{
+	cursor: pointer;
+}
+.togglearea {
+	display: none;
+}
+/*......................navbar-media-query.....................*/
+@media only screen and (max-width: 980px){
+	.navbar{
+		display: none;
+		width: 100%;
+	}
+	.logo{
+		display: none;
+	}
+	#toggle{
+		display: none;
+	}
+	.togglearea {
+		display: flex;
+	}
+	.nav-1 li, .nav-2 li{
+		display: flex;
+	}
+	.nav-1 li:hover, .nav-2 li:hover{
+		background-color: grey;
+	}
+	#toggle:checked + .navbar{
+		display: inline-block;
+	}
+}
+/*.................benifits-section-media-query.....................*/
+@media only screen and (max-width: 490px){
+	.benifit-items{
+		flex-direction: column;
+	}
+	.benefits-text-box{
+		text-align: center;
+		width: 300px;
+	}
+}
